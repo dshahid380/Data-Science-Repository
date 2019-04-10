@@ -1,11 +1,1 @@
-It will include all implementation of algorithms written in python
-
-Current it contains:
-
-### Cluster Evaluation Indices:
- Davies Bouldin  Index.
-
-### Feature Selection Algorithms:
-Mutual Information
-Information Gain Ratio
-ReliefF 
+It will include all implementation of Machine Learning algorithm implementation in python from scratch
