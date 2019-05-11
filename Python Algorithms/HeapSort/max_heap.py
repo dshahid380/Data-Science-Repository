@@ -33,11 +33,13 @@ def max_heapify(A, i, heap_size):
         max_heapify(A, largest, heap_size)
 
 def build_max_heap(A):
+    """Building max heap using heapify function"""
     heap_size = len(A)
     for i in range(heap_size, -1, -1):
         max_heapify(A, i, heap_size)
      
 def heapsort(A):
+    """First build the max heap then return the sorted array"""
     
     heap_size = len(A)
     #Build Max Heap
